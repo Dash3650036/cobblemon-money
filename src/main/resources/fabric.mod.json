@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_money",
+  "version": "1.0.0",
+  "name": "Cobblemon Money",
+  "description": "Donne des pièces Numismatic à la capture des Pokémon Cobblemon",
+  "authors": ["Dash"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "fr.cobblemonmoney.CobblemonMoneyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "cobblemon": "*"
+  }
+}
